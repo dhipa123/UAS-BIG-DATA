@@ -16,7 +16,7 @@ df = pd.DataFrame(data)
 sns.barplot(x='x', y='y', data=df)
 
 plt.ylabel('Total_Kasus ')
-plt.xlabel('Di Wilayah BALI (394 = 24 Maret) , (482 = 1 Juni)')
+plt.xlabel('Di Wilayah BALI (394 = 24 Maret) > (482 = 1 Juni)')
 plt.title('Total Kasus Covid-19 24 Maret sampai 1 Juni Tahun 2020')
 plt.show()
 
